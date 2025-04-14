@@ -28,7 +28,7 @@ def packet_callback(packet):
         start_time[0] = current_time
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     if os.geteuid() != 0:
         print("This script requires root privileges.")
         sys.exit(1)
